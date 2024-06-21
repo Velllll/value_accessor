@@ -17,7 +17,6 @@ export class ControllerName implements ControlValueAccessor {
   @Input() value: PartnerDto | null = null
   disabled = false
 
-  //call once when init component
   writeValue(value: any) {
     this.value = value
   }
